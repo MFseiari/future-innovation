@@ -69,6 +69,21 @@ header nav ul li a {
     font-size: 1.2em;
 }
 
+.hero .cta .btn {
+    background-color: #fff;
+    color: #5DADE2;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 5px;
+    display: inline-block;
+}
+
+.hero .cta .btn:hover {
+    background-color: #58D68D;
+    color: white;
+}
+
 /* Section Styles */
 .section {
     padding: 50px 20px;
@@ -86,13 +101,14 @@ header nav ul li a {
     margin-top: 20px;
 }
 
-.about p, .flagship p, .contact p {
-    font-size: 1.1em;
-    line-height: 1.6;
+.about ul {
+    list-style: disc;
+    margin-top: 20px;
+    padding-left: 20px;
+    text-align: left;
 }
 
-/* Contact Form */
-form input, form textarea {
+.contact form input, .contact form textarea {
     width: 100%;
     margin-bottom: 15px;
     padding: 10px;
@@ -100,7 +116,7 @@ form input, form textarea {
     border-radius: 5px;
 }
 
-form button {
+.contact form button {
     background-color: #58D68D;
     color: white;
     border: none;
@@ -109,7 +125,7 @@ form button {
     cursor: pointer;
 }
 
-form button:hover {
+.contact form button:hover {
     background-color: #45b974;
 }
 
